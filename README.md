@@ -36,7 +36,3 @@ Para crear data dummy en la base de datos ejecutar comando
     
     php artisan db:seed
 
-Para hacer login utilizar las credenciales:
-    
-    correo: ayau15@gmail.com
-    contrasena: Disteval123!
