@@ -15,6 +15,11 @@ class CreateZonasTable extends Migration
     {
         Schema::create('zonas', function (Blueprint $table) {
             $table->id();
+            $table->string('zona');
+            $table->string('descripcion');
+            $table->integer('idZona');
+            $table->string('departamento');
+            $table->string('municipio');
             $table->timestamps();
         });
     }
